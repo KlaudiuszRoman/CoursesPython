@@ -119,6 +119,38 @@ print(imie + ' ' +str(age))
 print(imie,age)
 print('{0} ma {1} lat.'.format(imie, age))
 
+# %%
+#Zadanie 2
+
+# utworzenie zmiennej
+nazwa = 'Python'
+
+# wydrukowanie 'Czesć, Python' do konsoli
+print('Cześć, {}'.format(nazwa))
+
+# %%
+saldo = 40
+saldo += 30
+saldo -= 10
+
+print(saldo)
+
+# %%
+lokata = 1000
+czynnik_akumulacyjny = 1 + 0.04
+lokata_po_roku = lokata * czynnik_akumulacyjny
+print('Wartosć lokaty po roku:', lokata_po_roku)
+
+# %%
+pixel = 150
+pixel = pixel / 255
+print(pixel)
+
+
+
+
+
+
 
 
 
