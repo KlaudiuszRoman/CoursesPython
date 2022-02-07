@@ -178,6 +178,41 @@ okres_trwania = 2
 fv = kwota_poczatkowa * (1 + stopa_procentowa/100)**2
 print(fv)
 
+# %%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
