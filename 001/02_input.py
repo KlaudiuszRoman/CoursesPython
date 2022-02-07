@@ -20,3 +20,25 @@ print('Cześć {}! Masz {} lat.'.format(name,age))
 age = int(input('Podaj wiek: '))
 
 # %%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
