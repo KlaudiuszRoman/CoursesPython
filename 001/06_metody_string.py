@@ -81,11 +81,14 @@ print('#gym#fit#mood'.split('#'))
 print('12'.zfill(5))
 print('1'.zfill(10))
 
+# %% Zadanie 5
 
+print('#'.join(['sport', 'python', 'free', 'time']))
 
+# %% Zadanie 6
 
-
-
+x = '123,785,45,5'
+print(x.split(','))
 
 
 
