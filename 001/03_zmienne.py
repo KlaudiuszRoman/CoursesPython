@@ -23,12 +23,15 @@ print(dzienna_pensja)
 camelCase = 'Python 3.7'
 PascalCase = 'Python 3.7'
 snake_case = 'Python 3.7'
-kebab-case = 'Python 3.7'
+kebab-case = 'Python 3.7' # syntax error
 UPPER = 'Python 3.7'
 
 # %%
 import keyword
 keyword.kwlist
+
+# %%
+
 
 
 
