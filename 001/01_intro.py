@@ -144,8 +144,49 @@ print('Wartosć lokaty po roku:', lokata_po_roku)
 
 # %%
 pixel = 150
-pixel = pixel / 255
+pixel /= 255
 print(pixel)
+
+# %%
+base = 2
+base  **= 5
+print(base)
+
+# %%
+x = 103
+x %= 10
+print(x)
+
+# %%
+imie = 'Klaudiusz'
+nazwisko = 'Roman'
+imie +=  nazwisko
+print(imie)
+
+# %%
+name = 'Python '
+version = '3.7'
+name += version
+print(name)
+
+# %% Zadanie 3
+
+kwota_poczatkowa = 1000
+stopa_procentowa = 5
+okres_trwania = 2
+
+fv = kwota_poczatkowa * (1 + stopa_procentowa/100)**2
+print(fv)
+
+
+
+
+
+
+
+
+
+
 
 
 
