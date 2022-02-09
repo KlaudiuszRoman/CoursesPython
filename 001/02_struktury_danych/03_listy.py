@@ -40,4 +40,7 @@ print(techs)
 # %%
 print(dir(list))
 
-# %%
+# %% Ćwiczenie 3
+numbers = [1, 4, 2, 5]
+letters = ['d', 's', 't']
+print(numbers + letters)
