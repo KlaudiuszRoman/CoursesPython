@@ -35,3 +35,41 @@ def policz_srednia(*args):
         return sum(args) / len(args)
     
 policz_srednia(1, 2)
+
+# %%
+
+def funkcja_2(**kwargs):
+    for kwarg in kwargs:
+        print(kwarg)
+        
+funkcja_2(**{'a':1, 'b' : 2})
+ 
+# %%
+   
+def fun(**kwargs):
+    print(kwargs)
+    
+fun(a = 1, b = 4)
+fun(x1 = 10, x2 = 20, x3 = 30)
+
+# %%
+def fun_2(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+fun_2(1, 2, 3, a = 10, b = 12)
+
+# %%
+def fun_3(*args, **kwargs):
+    print(sum(args))
+    print(kwargs.values())
+
+fun_3(1, 2, 3, a = 10, b = 12)
+
+# %% Ćwiczenie 6
+
+def policz_kwargs(*args, **kwargs):
+    return len(kwargs)
+
+policz_kwargs(a = 1, b = 2)
+policz_kwargs(10, b = 2, c = 3)
